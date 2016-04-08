@@ -1,5 +1,5 @@
 $(function() {
-    var stage = new createjs.Stage('gameCanvas');
+    var stage = new createjs.Stage('#gameCanvas');
     var circle = new createjs.Shape();
     var rText = new createjs.Text();
     var bText = new createjs.Text();
@@ -39,7 +39,7 @@ $(function() {
     init();
     function init() {
         console.log("INIT GAME");
-        stage = new createjs.Stage('gameCanvas');
+        stage = new createjs.Stage('#gameCanvas');
         
         startGame();
         score();
