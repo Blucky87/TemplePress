@@ -35,4 +35,15 @@ angular.module('app.controllers', [])
 .controller('routesCtrl', function($scope) {
 
 })
+
+.controller('MyCtrl', function($scope, Camera) {
+
+  $scope.getPhoto = function() {
+    Camera.getPicture().then(function(imageURI) {
+      console.log(imageURI);
+    }, function(err) {
+      console.err(err);
+    });
+  };
+});
  

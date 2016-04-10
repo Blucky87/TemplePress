@@ -41,7 +41,7 @@ angular.module('app.routes', [])
     views: {
       'tab5': {
         templateUrl: 'templates/camera.html',
-        controller: 'cameraCtrl'
+        controller: 'MyCtrl'
       }
     }
   })
