@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="X:\Google Drive\Git\Repos\TemplePress\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d27aa1dfa7f51a4a3a72adb89efd8fb48f58cf8a">
+        <dex dex="X:\Google Drive\Git\Repos\TemplePress\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_4cc34e6c5fbbb122101f6e075eef5d82c50a6bbc.jar" />
+    </item>
+
+</items>
