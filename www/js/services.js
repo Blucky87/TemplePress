@@ -3,7 +3,6 @@ angular.module('app.services', [])
 .factory('BlankFactory', [function(){
 
 }])
-
 .factory('Camera', ['$q', function($q) {
 
   return {
