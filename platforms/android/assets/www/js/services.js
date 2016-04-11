@@ -3,6 +3,7 @@ angular.module('app.services', [])
 .factory('BlankFactory', [function(){
 
 }])
+
 .factory('Camera', ['$q', function($q) {
 
   return {
@@ -10,7 +11,7 @@ angular.module('app.services', [])
       var q = $q.defer();
 
       navigator.camera.getPicture(function(result) {
-        // Do any magic you need
+        console.log("Images saved to:" + result)
         q.resolve(result);
       }, function(err) {
         q.reject(err);

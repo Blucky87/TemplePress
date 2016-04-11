@@ -1,6 +1,14 @@
 angular.module('app.controllers', [])
   
-.controller('bookCtrl', function($scope) {
+.controller('bookCtrl', function($scope, $http) {
+
+    $scope.testPHP = function(){
+        $http.get('php/tester.php').then(function(response){
+            $scope.testResult = "Success: [" + response.data +"]";
+        },function(response){
+            $scope.testResult = "Failed: [" + response.data + "]";
+        });
+    }
 
 })
       
@@ -34,16 +42,21 @@ angular.module('app.controllers', [])
    
 .controller('routesCtrl', function($scope) {
 
+
+
 })
 
 .controller('MyCtrl', function($scope, Camera) {
     $scope.photos = [];
-  $scope.getPhoto = function() {
-    Camera.getPicture().then(function(imageURI) {
-      console.log(imageURI);
-      $scope.photos.push(imageURI);
-    }, function(err) {
-      console.err(err);
+
+    $scope.getPhoto = function() {
+     Camera.getPicture().then(
+      function(imageURI) {
+        console.log(imageURI);
+        $scope.photos.push(imageURI);
+      }, 
+      function(err) {
+        console.err(err);
     });
   };
 
