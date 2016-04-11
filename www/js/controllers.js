@@ -37,13 +37,17 @@ angular.module('app.controllers', [])
 })
 
 .controller('MyCtrl', function($scope, Camera) {
-
+    $scope.photos = [];
   $scope.getPhoto = function() {
     Camera.getPicture().then(function(imageURI) {
       console.log(imageURI);
+      $scope.photos.push(imageURI);
     }, function(err) {
       console.err(err);
     });
   };
+
+
+
 });
  
