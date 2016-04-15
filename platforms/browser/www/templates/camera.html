@@ -1,7 +1,9 @@
 <ion-view title="Camera" id="page6">
     <ion-content overflow-scroll="true" padding="true" class="has-header">
-    <button ng-click="getPhoto()" class="button button-block button-primary">Button</button>
-   
+    <button ng-click="getPhoto()" class="button button-royal button-full icon-left ion-camera">Camera Button</button>
+    <ion-item collection-repeat="photo in photos">
+        <img src="{{photo}}" alt="" style="width:200px;height:200px;">
+    </ion-item>
 
 
     </ion-content>

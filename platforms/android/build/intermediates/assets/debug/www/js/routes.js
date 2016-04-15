@@ -106,6 +106,17 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('tabsController.locationdebug', {
+    url: '/LCLDBG',
+    views: {
+      'tab1': {
+        templateUrl: 'templates/locationdebug.html',
+        controller: 'locationdebugCtrl'
+      }
+    }
+  })
+
+
 $urlRouterProvider.otherwise('/page1/page12')
 
   

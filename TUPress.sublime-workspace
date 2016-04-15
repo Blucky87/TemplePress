@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"console"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"te",
+				"testResult"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
 				"password",
 				"passwordForgotten"
 			],
@@ -48,50 +68,109 @@
 	"buffers":
 	[
 		{
-			"file": "package.json",
+			"file": "www/index.html",
 			"settings":
 			{
-				"buffer_size": 669,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/X/DL/js/gameFunctions.js",
-			"settings":
-			{
-				"buffer_size": 7268,
+				"buffer_size": 1531,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/book.html",
+			"file": "www/templates/camera.html",
 			"settings":
 			{
-				"buffer_size": 7860,
+				"buffer_size": 400,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/templates/routes.html",
+			"settings":
+			{
+				"buffer_size": 1381,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/templates/login.html",
+			"settings":
+			{
+				"buffer_size": 972,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/templates/signup.html",
+			"settings":
+			{
+				"buffer_size": 1626,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/css/customStyle.css",
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/js/services.js",
+			"settings":
+			{
+				"buffer_size": 812,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/js/routes.js",
+			"settings":
+			{
+				"buffer_size": 2264,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/php/tester.php",
+			"settings":
+			{
+				"buffer_size": 37,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/js/controllers.js",
+			"settings":
+			{
+				"buffer_size": 2561,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/X/wamp64/logs/php_error.log",
+			"settings":
+			{
+				"buffer_size": 2775,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n   echo \"true\";\n?>",
+			"file": "/C/Users/Brian/AppData/Local/Temp/scp32290/home/TU/tuf37823/public_html/prototype/IsAvailable.php",
+			"file_size": 24,
+			"file_write_time": 131049260880000000,
+			"settings":
+			{
+				"buffer_size": 24,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "platforms/browser/www/index.html",
+			"file": "www/js/app.js",
 			"settings":
 			{
-				"buffer_size": 1498,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/templates/book.html",
-			"settings":
-			{
-				"buffer_size": 7860,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/X/DL/index.html",
-			"settings":
-			{
-				"buffer_size": 14941,
+				"buffer_size": 984,
 				"line_ending": "Windows"
 			}
 		}
@@ -171,20 +250,54 @@
 	},
 	"expanded_folders":
 	[
-		"/X/Google Drive/Git/Repos/TUPress",
-		"/X/Google Drive/Git/Repos/TUPress/www",
-		"/X/Google Drive/Git/Repos/TUPress/www/js",
-		"/X/Google Drive/Git/Repos/TUPress/www/lib",
-		"/X/Google Drive/Git/Repos/TUPress/www/templates"
+		"/X/Google Drive/Git/Repos/TemplePress",
+		"/X/Google Drive/Git/Repos/TemplePress/www",
+		"/X/Google Drive/Git/Repos/TemplePress/www/css",
+		"/X/Google Drive/Git/Repos/TemplePress/www/js",
+		"/X/Google Drive/Git/Repos/TemplePress/www/php",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates"
 	],
 	"file_history":
 	[
-		"/X/Google Drive/Git/Repos/TUPress/platforms/browser/www/js/libs/jquery-2.2.3.js",
+		"/X/wamp64/www/php/IsAvailable.php",
+		"/C/Users/Brian/AppData/Local/Temp/scp13880/home/TU/tuf37823/public_html/prototype/IsAvailable.php",
+		"/C/Users/Brian/AppData/Local/Temp/scp12662/home/TU/tuf37823/public_html/prototype/IsAvailable.php",
+		"/X/Google Drive/Git/Repos/TemplePress/www/css/customStyle.css",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates/book.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/js/routes.js",
+		"/X/Google Drive/Git/Repos/TemplePress/www/js/services.js",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates/historicalSiteN.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates/camera.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates/routes.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/js/controllers.js",
+		"/X/Google Drive/Git/Repos/TemplePress/platforms/android/.gitignore",
+		"/X/Google Drive/Git/Repos/TemplePress/www/lib/EaselJS/lib/easeljs-0.8.2.combined.js",
+		"/X/Google Drive/Git/Repos/TemplePress/www/book.html",
+		"/X/Google Drive/Git/Repos/TUTools/app/view1/view1.js",
+		"/X/Google Drive/Git/Repos/TUTools/app/app.js",
+		"/X/Google Drive/Git/Repos/TUTools/app/index.html",
+		"/X/Google Drive/Git/Repos/TUTools/node_modules/csurf/package.json",
+		"/X/Google Drive/Git/Repos/TUTools/sftp-config.json",
+		"/X/Google Drive/Util/Sublime Text Build 3103 x64/Data/Packages/SFTP/Default (Windows).sublime-keymap",
+		"/X/Google Drive/Util/Sublime Text Build 3103 x64/Data/Packages/SFTP/school",
+		"/X/Google Drive/Util/Sublime Text Build 3103 x64/Data/Packages/SFTP/SFTP.sublime-settings",
+		"/X/Google Drive/Util/Sublime Text Build 3103 x64/Data/Packages/User/SFTP.sublime-settings",
+		"/X/Google Drive/Git/Repos/TUTools/app/php/grabLocations.php",
+		"/X/Google Drive/Git/Repos/TUTools/app/view1/view1_test.js",
+		"/X/Google Drive/Git/Repos/TUTools/app/view1/view1.html",
+		"/X/Google Drive/Git/Repos/TUTools/app/view2/view2_test.js",
+		"/X/Google Drive/Git/Repos/TUTools/app/view2/view2.js",
+		"/X/Google Drive/Git/Repos/TUPress/www/templates/tab-chats.html",
+		"/X/Google Drive/Git/Repos/TUPress/www/js/services.js",
+		"/X/Google Drive/Git/Repos/TemplePress/platforms/platforms.json",
+		"/X/Google Drive/Git/Repos/TUPress/www/js/controllers.js",
+		"/X/DL/index.html",
+		"/X/Google Drive/Git/Repos/TUPress/www/index.html",
+		"/X/Google Drive/Git/Repos/TUPress/www/book.html",
 		"/X/Google Drive/Temple/Courses/CIS/1052/Lab3/index.html",
 		"/X/Google Drive/Git/Repos/TUPress/package.json",
 		"/X/Google Drive/Git/Repos/TUPress/platforms/android/assets/www/cordova.js",
 		"/X/Google Drive/Git/Repos/TUPress/platforms/platforms.json",
-		"/X/Google Drive/Git/Repos/TUPress/www/index.html",
 		"/X/Google Drive/Git/Repos/TemplePress/platforms/android/android.json",
 		"/X/DOWNLOADS/test (2)/index.html",
 		"/X/Google Drive/Temple/Courses/CIS/1052/lab4/php/account/login.php",
@@ -193,7 +306,6 @@
 		"/X/Google Drive/Temple/Courses/CIS/1052/lab4/newindex.html",
 		"/X/DOWNLOADS/test (2)/js/app.js",
 		"/X/Google Drive/Temple/Courses/CIS/1052/lab4/php/account/register.php",
-		"/X/Google Drive/Git/Repos/TemplePress/platforms/platforms.json",
 		"/X/Google Drive/Temple/Courses/CIS/1052/lab4/php/loggedout.php",
 		"/X/Google Drive/Temple/Courses/CIS/1052/lab4/lab4.sublime-project",
 		"/X/Google Drive/Temple/Courses/CIS/1052/lab4/php/logincheck.php",
@@ -221,9 +333,6 @@
 		"/X/Git/Repos/Project-Otiose/Assets/TK2DROOT/tk2d/Code/Sprites/tk2dBaseSprite.cs",
 		"/X/Git/Repos/Project-Otiose/Assets/TK2DROOT/tk2d/Code/Sprites/tk2dAnimatedSprite.cs",
 		"/X/Google Drive/Temple/Courses/CIS/1052/lab4/sftp-config.json",
-		"/X/Google Drive/Util/Sublime Text Build 3103 x64/Data/Packages/SFTP/Default (Windows).sublime-keymap",
-		"/X/Google Drive/Util/Sublime Text Build 3103 x64/Data/Packages/User/SFTP.sublime-settings",
-		"/X/Google Drive/Util/Sublime Text Build 3103 x64/Data/Packages/SFTP/SFTP.sublime-settings",
 		"/X/Google Drive/Temple/Courses/CIS/1052/lab4/php/loggedout",
 		"/X/Google Drive/Temple/Courses/CIS/1052/lab4/js/lib/cookie.js",
 		"/X/Google Drive/Temple/Courses/CIS/1052/lab4/js/mortgageFunctions.js",
@@ -269,7 +378,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -285,7 +394,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"gamecontent",
+			"username",
+			"historicalSite2Ctrl",
+			"',",
+			"Password",
 			"show",
 			"bodyContainer",
 			"}\n",
@@ -323,24 +435,24 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "package.json",
+					"file": "www/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 669,
+						"buffer_size": 1531,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								273,
+								273
 							]
 						],
 						"settings":
@@ -348,131 +460,32 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/X/DL/js/gameFunctions.js",
+					"file": "www/templates/camera.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7268,
+						"buffer_size": 400,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1378,
-								1378
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "www/book.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7860,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7860,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "platforms/browser/www/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1498,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								841,
-								841
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "www/templates/book.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7860,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7860,
-								7860
+								367,
+								367
 							]
 						],
 						"settings":
@@ -486,24 +499,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/X/DL/index.html",
+					"buffer": 2,
+					"file": "www/templates/routes.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14941,
+						"buffer_size": 1381,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2042,
-								2047
+								829,
+								829
 							]
 						],
 						"settings":
@@ -512,7 +525,330 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/templates/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								903,
+								903
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "www/templates/signup.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1562,
+								1562
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "www/css/customStyle.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+							"gutter_color_11":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ef473a.png",
+								"regions":
+								[
+									[
+										11,
+										41
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_56":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#33cd5f.png",
+								"regions":
+								[
+									[
+										56,
+										86
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "www/js/services.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								812,
+								812
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "www/js/routes.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "www/php/tester.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33,
+								33
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "www/js/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2561,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								916,
+								916
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/X/wamp64/logs/php_error.log",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2775,
+								2775
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/Brian/AppData/Local/Temp/scp32290/home/TU/tuf37823/public_html/prototype/IsAvailable.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -520,13 +856,46 @@
 					},
 					"stack_index": 4,
 					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "www/js/app.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 984,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								984,
+								984
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -541,11 +910,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.529090909091,
 			1.0
 		],
 		"rows":
@@ -571,7 +947,7 @@
 	"project": "TUPress.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -705,7 +1081,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

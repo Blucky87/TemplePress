@@ -1,0 +1,18 @@
+
+.failed {
+    background-color: #ef473a;
+}
+
+.succeed {
+    background-color: #33cd5f;
+
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.scroll {
+  height: 100%;
+}
