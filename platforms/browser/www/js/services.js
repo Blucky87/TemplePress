@@ -3,6 +3,37 @@ angular.module('app.services', [])
 .factory('BlankFactory', [function(){
 
 }])
+.value('location',{ "name": "",
+                    "location": {
+                      "address": "",
+                      "latitude": "0.0",
+                      "longitude": "0.0"
+                    },
+
+                    "background": {
+                      "constructed": {
+                        "completed": "",
+                        "demolished": "",
+                        "architect": ""
+                      },
+
+                      "story": "",
+                      "notes": ""
+                      },
+                    
+                    "meta": {
+                      "imgID": "",
+                      "GUID": ""
+                    }})
+
+.factory('locationData', [function(){
+  var location = {};
+
+  function setlocation(loc){
+    location = loc;
+  }
+  
+}])
 
 .factory('IsAvailable', ['$http', 'data', function($http, data){
   var status = false;

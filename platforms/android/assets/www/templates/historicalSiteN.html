@@ -1,3 +1,22 @@
-<ion-view title="Historical Site N" id="page10">
-    <ion-content overflow-scroll="true" padding="true" class="has-header"></ion-content>
+<ion-view title="{{selectedItem.name}}" id="page10">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <div class="card">
+          <div class="item item-divider">
+            <h5>{{selectedItem.name}}</h5>
+            <p>Address: {{selectedItem.location.address}}</p>
+          </div>
+          <div class="item item-text-wrap">
+            <img src="{{imageLocation}}" alt="">
+            <br>
+            <p>{{selectedItem.background.story}}</p>
+            <br>
+            <p>{{selectedItem.background.notes}}</p>
+          </div>
+          <div class="item item-divider">
+            <p>Architect: {{selectedItem.background.constructed.architect}}</p>
+            <p>Constructed: {{selectedItem.background.constructed.completed}}</p>
+            <p>Demolished: {{selectedItem.background.constructed.demolished}}</p>
+          </div>
+    </div>
+    </ion-content>
 </ion-view>

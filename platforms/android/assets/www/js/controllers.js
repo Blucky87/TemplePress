@@ -15,7 +15,7 @@ angular.module('app.controllers', [])
 })
 
 
-    .controller('locationdebugCtrl', function($scope, $ionicLoading, $compile, GeoLocationJSON) {
+  .controller('locationdebugCtrl', function($scope, $ionicLoading, GeoLocationJSON) {
 
   $scope.updateLocation = function() {
     GeoLocationJSON.getCurrentGeoLocation().then(
@@ -29,7 +29,10 @@ angular.module('app.controllers', [])
 
 
 
-      $scope.init = function initialize(long,lat) {
+      $scope.init = function initialize(long, lat){
+        $('.jj').hide();
+        $('p').hide();
+
         var site = new google.maps.LatLng($scope.location.coords.latitude, $scope.location.coords.longitude);
         var hospital = new google.maps.LatLng(39.952706, -75.163720);
       
@@ -41,14 +44,6 @@ angular.module('app.controllers', [])
         };
         var map = new google.maps.Map(document.getElementById("map"),
             mapOptions);
-        
-        //Marker + infowindow + angularjs compiled ng-click
-        var contentString = "<div><a ng-click='clickTest()'>Click me!</a></div>";
-        var compiled = $compile(contentString)($scope);
-
-        var infowindow = new google.maps.InfoWindow({
-          content: compiled[0]
-        });
 
         var marker = new google.maps.Marker({
           position: site,
@@ -74,9 +69,6 @@ angular.module('app.controllers', [])
 
         hospitalwindow.open(map,hospitalRoute);
        
-        google.maps.event.addListener(marker, 'click', function() {
-          infowindow.open(map,marker);
-        });
 
         $scope.map = map;
         
@@ -123,21 +115,78 @@ angular.module('app.controllers', [])
       
     })
 
-// .controller('locationdebugCtrl',function($scope, GeoLocationJSON) {
+.controller('locationsCtrl', function($scope, $http, location) {
 
-//   // $scope.updateLocation = function() {
-//   //   GeoLocationJSON.getCurrentGeoLocation().then(
-//   //     function(position){
-//   //       console.log(position);
-//   //       $scope.location = position;
-//   //     },function(err){
+  $scope.selectItem = function(index){
+    location.name = $scope.locations[index].name;
+    location.location.address = $scope.locations[index].location.address;
+    location.location.latitude = $scope.locations[index].location.latitude;
+    location.location.longitude = $scope.locations[index].location.longitude;
+    location.background.constructed.completed = $scope.locations[index].background.constructed.completed;
+    location.background.constructed.demolished = $scope.locations[index].background.constructed.demolished;
+    location.background.constructed.architect = $scope.locations[index].background.constructed.architect;
+    location.background.story = $scope.locations[index].background.story;
+    location.background.notes = $scope.locations[index].background.notes;
+    location.meta.imgID = $scope.locations[index].meta.imgID;
+    location.meta.GUID = $scope.locations[index].meta.GUID;
+    console.log(location);
+  };
 
-//   //     });
-//   // }
 
-// })
-      
-.controller('locationsCtrl', function($scope) {
+  $scope.$on('$ionicView.loaded', function(){
+    $scope.locations = [];  
+    var url = "";
+
+    if(ionic.Platform.isAndroid()){
+      url = "/android_asset/www/";
+    } else {
+
+    }
+
+    for(var i=0; i<2; i++){
+      $http.get(url+'assets/locationJSON/b0'+i+'.json').then(function(response){
+        $scope.locations.push(response.data);
+      }, function(err){
+
+      });
+    }
+  
+    $scope.getFiles();
+
+  });
+
+  $scope.getFiles =     function getFilesList(callback) {
+        console.log('getFilesList');
+        var fileList = [];
+
+        function onDirResolved(dir) {
+            var reader = dir.createReader();
+            reader.readEntries(function(entries) {
+                console.log('readEntries');
+                for (var i=0; i<entries.length; i++) {
+                   
+                        fileList.push(entries[i].fullPath);
+                    
+                };
+                console.log('fileList ' + fileList);
+                callback(fileList);
+            }, errorHandler);
+        };
+        function errorHandler(err){
+          console.log(err);
+        };
+        function onFsResolved(fs) {
+          console.log(cordova.file.applicationDirectory);
+            window.resolveLocalFileSystemURL(
+                cordova.file.applicationDirectory+"www/",
+                onDirResolved, errorHandler);
+        };
+
+        window.requestFileSystem(LocalFileSystem.PERSISTENT, 0,
+            onFsResolved, errorHandler);
+
+    };
+
 
 })
    
@@ -153,8 +202,9 @@ angular.module('app.controllers', [])
 
 })
    
-.controller('historicalSiteNCtrl', function($scope) {
-
+.controller('historicalSiteNCtrl', function($scope, location) {
+  $scope.selectedItem = location;
+  console.log($scope.selectedItem);
 })
    
 .controller('loginCtrl', function($scope) {

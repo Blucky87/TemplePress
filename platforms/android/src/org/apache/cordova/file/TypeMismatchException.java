@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+/*
        Licensed to the Apache Software Foundation (ASF) under one
        or more contributor license agreements.  See the NOTICE file
        distributed with this work for additional information
@@ -16,12 +15,16 @@
        KIND, either express or implied.  See the License for the
        specific language governing permissions and limitations
        under the License.
--->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.apache.cordova"
-    android:versionCode="1"
-    android:versionName="1.0" >
+*/
 
-    <uses-sdk android:minSdkVersion="14" />
 
-</manifest>
+package org.apache.cordova.file;
+
+@SuppressWarnings("serial")
+public class TypeMismatchException extends Exception {
+
+    public TypeMismatchException(String message) {
+        super(message);
+    }
+
+}
