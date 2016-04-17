@@ -8,7 +8,7 @@
     },
 
     "background" : {
-        "constructed" : {
+        "construction" : {
             "completed" : "1801",
             "demolished" : "1867",
             "architect" : "Benjamin Henry Latrobe"
@@ -20,6 +20,6 @@
 
     "meta" : {
         "imgID" : "bankofamerica.jpg",
-        "GUID" : "b00"
+        "GUID" : "d0"
     }
 }

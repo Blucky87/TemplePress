@@ -35,6 +35,11 @@ angular.module('app.services', [])
   
 }])
 
+.service('genMap',[function(){
+
+  
+}])
+
 .factory('IsAvailable', ['$http', 'data', function($http, data){
   var status = false;
   var obj = {};

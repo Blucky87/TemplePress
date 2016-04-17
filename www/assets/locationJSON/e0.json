@@ -8,7 +8,7 @@
     },
 
     "background" : {
-        "constructed" : {
+        "construction" : {
             "completed" : "1971",
             "demolished" : "2004",
             "architect" : "Ewing, George & Co., Hugh Stubbins & Associates, Stonorov & Haws"
@@ -20,6 +20,6 @@
 
     "meta" : {
         "imgID" : "vetstadium.jpg",
-        "GUID" : "b01"
+        "GUID" : "e0"
     }
 }
