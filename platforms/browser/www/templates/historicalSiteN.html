@@ -6,16 +6,26 @@
             <p>Address: {{selectedItem.location.address}}</p>
           </div>
           <div class="item item-text-wrap">
-            <img src="{{imageLocation}}" alt="">
-            <br>
-            <p>{{selectedItem.background.story}}</p>
-            <br>
-            <p>{{selectedItem.background.notes}}</p>
+            <div class="row">
+              <div class="col col-50 col-offset-25">
+                <img src="assets/locationJPEG/{{selectedItem.meta.GUID}}.jpg" style="height: 100%; width: 100%;" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <h2>{{selectedItem.background.story}}</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p><b>{{selectedItem.background.notes}}</b></p>
+              </div>
+            </div>            
           </div>
           <div class="item item-divider">
-            <p>Architect: {{selectedItem.background.constructed.architect}}</p>
-            <p>Constructed: {{selectedItem.background.constructed.completed}}</p>
-            <p>Demolished: {{selectedItem.background.constructed.demolished}}</p>
+            <p>Architect: {{selectedItem.background.construction.architect}}</p>
+            <p>Constructed: {{selectedItem.background.construction.completed}}</p>
+            <p>Demolished: {{selectedItem.background.construction.demolished}}</p>
           </div>
     </div>
     </ion-content>

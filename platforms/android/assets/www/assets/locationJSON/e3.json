@@ -1,0 +1,25 @@
+{
+    "name" : "Union Volunteer Refreshment Saloon",
+    
+    "location" : {
+        "address" : "Southwest corner of Swanson Street and Washington Avenue",
+        "latitude" : 39.933466,
+        "longitude" : -75.144458
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1861",
+            "demolished" : "1866",
+            "architect" : "Unknown"
+        },
+
+        "story" : "During the Civil War, more troops passed through Philadelphia than through any other Northern city.  Almost immediately after the outbreak of war, Philadelphians banded together to provide facilities where soldiers could wash and eat a hot meal before proceeding to the front. Two organizations—the Union Volunteer Refreshment Saloon and the Cooper Shop Volunteer Refreshment Saloon—soon emerged, maintaining a friendly rivalry throughout the Civil War. Founded within one day of each other, the two saloons existed only a few blocks apart, and each insisted it was the “first institution of its kind” in the United States. Together, the two hospitals cared for roughly 20,000 soldiers. All operations for both saloons were financed by private contributions and run by volunteers, with no federal, state, or city aid.",
+        "notes" : "As Washington Avenue and its surrounding streets became an industrial district after the war, factories and warehouses gradually replaced the Cooper Shop and Union buildings. The gratitude and fond memories of countless soldiers for the city that truly loved them back lasted for decades after the Cooper Shop and Union had disappeared."
+    },
+
+    "meta" : {
+        "imgID" : "unionrefreshmentsaloon.jpg",
+        "GUID" : "e3"
+    }
+}

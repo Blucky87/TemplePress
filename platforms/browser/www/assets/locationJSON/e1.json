@@ -1,0 +1,25 @@
+{
+    "name" : "Monument Cemetery",
+    
+    "location" : {
+        "address" : "1900 North Broad Street",
+        "latitude" : 39.981724,
+        "longitude" : -75.15722
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1837",
+            "demolished" : "1956",
+            "architect" : "Philip Price, John Sartain"
+        },
+
+        "story" : "Dr. John Elkinton converted his country estate at Broad Street and Turner’s Lane into a private cemetery to compete with Laurel Hill Cemetery, Philadelphia's first private rural cemetery that had opened the previous year. He named the cemetery after a proposed memorial to Washington and Marquis de Lafayette, designed by artist and engraver John Sartain, which was not erected until 1869.",
+        "notes" : "After a long, slow decline, Monument suffered a fatal collision with Temple University’s expansion plans in the early 1950s. Temple needed land for parking lots and playing fields, and Monument was the only available open space. After years of public hearings and legal action, Temple acquired Monument in 1956. It moved the bodies of Dr. Conwell and his wife to a memorial garden on the Temple campus. The other 20,000 bodies were removed to Lawnview Cemetery in Montgomery County during a stifling summer, when, in the words of one observer, 'The odors in the air were well-nigh intolerable.'"
+    },
+
+    "meta" : {
+        "imgID" : "monumentcemetery.jpg",
+        "GUID" : "e1"
+    }
+}

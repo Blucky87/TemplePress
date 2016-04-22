@@ -3,6 +3,9 @@ angular.module('app.services', [])
 .factory('BlankFactory', [function(){
 
 }])
+.service('WPMap', [function(){
+
+}])
 .value('location',{ "name": "",
                     "location": {
                       "address": "",
@@ -11,7 +14,7 @@ angular.module('app.services', [])
                     },
 
                     "background": {
-                      "constructed": {
+                      "construction": {
                         "completed": "",
                         "demolished": "",
                         "architect": ""
@@ -34,6 +37,69 @@ angular.module('app.services', [])
   }
   
 }])
+.value('wp', wp = [])
+
+.factory('genMap',['GeoLocationJSON',function(GeoLocationJSON){
+  var map = {
+    gMap : null,
+    waypoints : [],
+    origin: null,
+    markers: [],
+    infoWindows: [],
+    setMap : function(targetElement){
+      var currentLocation = GeoLocationJSON.getCurrentGeoLocation().then(
+        function(postion){
+          var temp = new google.maps.LatLng(postion.coords.latitude, postion.coords.longitude);
+          var mapOptions = {
+            streetViewControl: true,
+            center: temp,
+            zoom: 18,
+            mapTypeId: google.maps.MapTypeId.TERRAIN
+            
+          };
+          map.gMap = new google.maps.Map(targetElement, mapOptions);
+
+        }, function(err){
+
+        });
+
+      return map;
+    },
+
+    addWayPoint : function(locations) {
+      console.log(locations);
+      for(var i=0; i<locations.length; i++){
+        
+        map.waypoints.push(locations[i]);
+      }
+      return map;
+    },
+
+    buildMarkers : function(){
+      for(var i=0; i< map.waypoints.length; i++){
+        console.log(map.waypoints[i]);
+        var tempPos = new google.maps.LatLng(map.waypoints[i].location.latitude, map.waypoints[i].location.longitude);
+        var tempMarker = new google.maps.Marker({
+          position: tempPos,
+          map: map.gMap,
+          title: map.waypoints[i].name
+        });
+
+        var tempWindow = new google.maps.InfoWindow({
+             content: map.waypoints[i].name
+        });
+
+        tempWindow.open(map.gMap, tempMarker);
+        map.markers.push(tempMarker);
+        map.infoWindows.push(tempWindow);
+      }
+
+      return map;
+    }
+  };
+
+  return map;
+}])
 
 .factory('IsAvailable', ['$http', 'data', function($http, data){
   var status = false;
@@ -49,6 +115,7 @@ angular.module('app.services', [])
   return status;
 
 }])
+
 
 .factory('GeoLocationJSON',['$q', function($q){
   return {

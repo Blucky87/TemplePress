@@ -1,0 +1,25 @@
+{
+    "name" : "Court House and Town Hall",
+    
+    "location" : {
+        "address" : "Center of Market Street,on west side of intersection with 2nd Street",
+        "latitude" : 39.94991436,
+        "longitude" : -75.14385503
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1710",
+            "demolished" : "1837",
+            "architect" : "Samuel Powel"
+        },
+
+        "story" : "The Court House and Town Hall did triple service as the political, judicial, and commercial center of Philadelphia. Built in 1707-10 between Christ Church and the Great Meeting House, the brick building combined the city's market head house with its courthouse, an ancient British tradition. It served as the seat of government for the city and county of Philadelphia, as well as for the province of Pennsylvania, until these functions were transferred to the State House in 1748. Outside stairways on the north and south sides of the building snaked around to the Second Street facade, joining at a covered balcony on the second floor, the site of public announcements and speeches, as well as elections. Enfranchised freemen ascended the stairs to vote or blocked them to keep their opponents from casting their ballots. In an October 1742 election between the Proprietary and Governor’s parties, supporters of the royal governor enlisted sailors to hold the stairs. Proprietary partisans, mostly Quakers, used fists, sticks, stones, and clubs to drive the sailors back to their ships. Perhaps to discourage similar brawls, the outside stairs were removed before the Revolution.",
+        "notes" : "This government building was often the site of brawls especially during voting season."
+    },
+
+    "meta" : {
+        "imgID" : "courthousetownhall.jpg",
+        "GUID" : "d2"
+    }
+}

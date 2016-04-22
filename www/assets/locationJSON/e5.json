@@ -1,0 +1,25 @@
+{
+    "name" : "Moyamensing Prison",
+    
+    "location" : {
+        "address" : "Square bounded by Reed Street, Passyunk Avenue, Dickinson Street, and Gerritt Street, South Philadelphia",
+        "latitude" : 39.931958,
+        "longitude" : -75.162478
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1835",
+            "demolished" : "1967",
+            "architect" : "Thomas U. Walter"
+        },
+
+        "story" : "To alleviate overcrowding in other Philadelphia prisons, work began in 1832 on the Philadelphia County Prison, more than one mile south of the city in rural Moyamensing. The prison was the first major commission of Thomas Ustick Walter, a student of John Haviland, who would later design Girard College and the current dome of the U.S. Capitol.",
+        "notes" : "Over time, the massive prison grew as overcrowded and obsolete as its predecessors. By the end of the nineteenth century, its rural isolation had given way to a bustling South Philadelphia neighborhood. During the twentieth century, escapes from the antiquated facility became common. The prison was finally vacated in 1963, after the Torresdale detention center opened."
+    },
+
+    "meta" : {
+        "imgID" : "moyamensing.jpg",
+        "GUID" : "e5"
+    }
+}

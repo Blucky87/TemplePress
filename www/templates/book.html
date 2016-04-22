@@ -1,7 +1,14 @@
 <ion-view title="Book" id="page2">
     <ion-content overflow-scroll="true" padding="true" class="has-header">
         <h1 id="book-heading3" style="color:#000000;text-align:center;">Order the Book</h1>
-        <div class="spacer" style="width: 283px; height: 41px;"></div>
+        <div id="mapCanvas" style="width: 283px; height: 419px;">
+            <ui-gmap-google-map id="map2" events="map.events" center="map.center" zoom="map.zoom" draggable="true" options="options" bounds="map.bounds">
+                <div ng-repeat="loc in locations">
+                    <ui-gmap-marker idKey="loc.meta.GUID" coords="loc.location">
+                    </ui-gmap-marker>
+                </div>
+            </ui-gmap-google-map>
+        </div>
         <button ng-click="testPHP()" class="button button-assertive button-full icon-left ion-ios-pulse-strong">INTERNAL PHP Test Button</button>
         <p>PHP Test Result: {{testResult}}</p>
     </ion-content>

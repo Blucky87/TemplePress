@@ -1,15 +1,10 @@
 angular.module('app.controllers', [])
   
-.controller('bookCtrl', function($scope, $http) {
+.controller('bookCtrl', function($scope, $http, genMap) {
 
     $scope.testPHP = function(){
-        $http.get('http://otiose.io/php/test.php').then(function(response){
-          console.log(response);
-            $scope.testResult = "Success: [" + response +"]";
-        },function(response){
-          console.log(response);
-            $scope.testResult = "Failed: [" + response.data + "]";
-        });
+      var temp = genMap.setMap($scope.map).setWayPoints("dfasd");
+      console.log(temp);
     }
 
 })
@@ -116,15 +111,16 @@ angular.module('app.controllers', [])
     })
 
 .controller('locationsCtrl', function($scope, $http, location) {
+  $scope.locations = []; 
 
   $scope.selectItem = function(index){
     location.name = $scope.locations[index].name;
     location.location.address = $scope.locations[index].location.address;
     location.location.latitude = $scope.locations[index].location.latitude;
     location.location.longitude = $scope.locations[index].location.longitude;
-    location.background.constructed.completed = $scope.locations[index].background.constructed.completed;
-    location.background.constructed.demolished = $scope.locations[index].background.constructed.demolished;
-    location.background.constructed.architect = $scope.locations[index].background.constructed.architect;
+    location.background.construction.completed = $scope.locations[index].background.construction.completed;
+    location.background.construction.demolished = $scope.locations[index].background.construction.demolished;
+    location.background.construction.architect = $scope.locations[index].background.construction.architect;
     location.background.story = $scope.locations[index].background.story;
     location.background.notes = $scope.locations[index].background.notes;
     location.meta.imgID = $scope.locations[index].meta.imgID;
@@ -132,9 +128,11 @@ angular.module('app.controllers', [])
     console.log(location);
   };
 
+  $scope.showMap = function(){
+    
+  };
 
   $scope.$on('$ionicView.loaded', function(){
-    $scope.locations = [];  
     var url = "";
 
     if(ionic.Platform.isAndroid()){
@@ -143,8 +141,16 @@ angular.module('app.controllers', [])
 
     }
 
-    for(var i=0; i<2; i++){
-      $http.get(url+'assets/locationJSON/b0'+i+'.json').then(function(response){
+    for(var i=0; i<5; i++){
+      $http.get(url+'assets/locationJSON/e'+i+'.json').then(function(response){
+        $scope.locations.push(response.data);
+      }, function(err){
+
+      });
+    }
+
+    for(var i=0; i<5; i++){
+      $http.get(url+'assets/locationJSON/d'+i+'.json').then(function(response){
         $scope.locations.push(response.data);
       }, function(err){
 
@@ -154,39 +160,6 @@ angular.module('app.controllers', [])
     $scope.getFiles();
 
   });
-
-  $scope.getFiles =     function getFilesList(callback) {
-        console.log('getFilesList');
-        var fileList = [];
-
-        function onDirResolved(dir) {
-            var reader = dir.createReader();
-            reader.readEntries(function(entries) {
-                console.log('readEntries');
-                for (var i=0; i<entries.length; i++) {
-                   
-                        fileList.push(entries[i].fullPath);
-                    
-                };
-                console.log('fileList ' + fileList);
-                callback(fileList);
-            }, errorHandler);
-        };
-        function errorHandler(err){
-          console.log(err);
-        };
-        function onFsResolved(fs) {
-          console.log(cordova.file.applicationDirectory);
-            window.resolveLocalFileSystemURL(
-                cordova.file.applicationDirectory+"www/",
-                onDirResolved, errorHandler);
-        };
-
-        window.requestFileSystem(LocalFileSystem.PERSISTENT, 0,
-            onFsResolved, errorHandler);
-
-    };
-
 
 })
    
@@ -246,7 +219,6 @@ angular.module('app.controllers', [])
     }else{
       $scope.inputForm.name = data;
     }
-
   }
 
 })

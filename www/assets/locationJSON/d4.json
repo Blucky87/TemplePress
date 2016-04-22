@@ -1,0 +1,25 @@
+{
+    "name" : "Sheraton Hotel",
+    
+    "location" : {
+        "address" : "JFK Boulevard between 17th and 18th streets",
+        "latitude" : 39.95451541,
+        "longitude" : -75.16855091
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1957",
+            "demolished" : "1987",
+            "architect" : "Vincent G. Kling and Associates - Perry, Shaw, Hepburn and Dean"
+        },
+
+        "story" : "The Sheraton Hotel was a key element of the Penn Center development. As the ﬁrst major hotel built in Center City in thirty years, the success of the Sheraton was seen as critical to the renaissance of downtown Philadelphia. The Sheraton was not only the state's largest hotel, but also one of only eight downtown hotels built in the United States during the 1950s, the golden age of the motel. The Sheraton invited Philadelphians to take a sneak peek at their new treasure on January 27, 1957, when it hosted the Academy Ball, celebrating the centennial of the Academy of Music. Photographs of the event show men in white tie and women in ball gowns descending the curved staircase in the Grand Ballroom, framed by abstract gold trellises. Other photos of the same elegant guests standing in long buffet lines or eating while crouched on the ﬂoor, as honorary hostess Perle Mesta snarled at waiters to fetch chairs and tablecloths—suggest that the Sheraton needed to fine-tune its event planning. Impromptu entertainment was provided outside the main entrance, when waiters began a ﬁstﬁght with union pickets protesting Sheraton labor policies.",
+        "notes" : "Though portraying the image of high class, The Sheraton Hotel had incidents that proved to be quite low brow."
+    },
+
+    "meta" : {
+        "imgID" : "sheratonhotel.jpg",
+        "GUID" : "d4"
+    }
+}

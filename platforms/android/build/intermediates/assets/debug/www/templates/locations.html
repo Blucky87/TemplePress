@@ -1,9 +1,8 @@
 <ion-view title="Locations" id="page5" style="background-color:#FFFFFF;">
     <ion-content padding="true" class="has-header" id="lister">
-        <button id="locations-button11" class="button button-balanced  button-block">View all on Map</button>
+        <button nav-direction="swap"id="locations-button11" class="button button-balanced  button-block" ng-click="showMap();"> View all on Map</button>
         <div class="spacer" style="width: 283px; height: 42px;"></div>
         <ion-list ng-repeat="item in locations">
-
             <ion-item ui-sref="tabsController.historicalSiteN" id="$index" ng-click="selectItem($index);">{{item.name}}</ion-item>
         </ion-list>
     </ion-content>

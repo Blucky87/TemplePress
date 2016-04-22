@@ -1,16 +1,41 @@
-angular.module('app.controllers', [])
+angular.module('app.controllers', ['uiGmapgoogle-maps'])
+.config(function(uiGmapGoogleMapApiProvider) {
+    uiGmapGoogleMapApiProvider.configure({
+        key: 'AIzaSyCBs4S7LnhoinGQihtot34nDEdlJnTZT1c',
+        v: '3.20', //defaults to latest 3.X anyhow
+        libraries: 'weather,geometry,visualization'
+    });
+})
   
-.controller('bookCtrl', function($scope, $http) {
+.controller('bookCtrl', function($scope, $http, GeoLocationJSON, uiGmapGoogleMapApi, wp) {
+  $scope.locations = wp;
 
-    $scope.testPHP = function(){
-        $http.get('http://otiose.io/php/test.php').then(function(response){
-          console.log(response);
-            $scope.testResult = "Success: [" + response +"]";
-        },function(response){
-          console.log(response);
-            $scope.testResult = "Failed: [" + response.data + "]";
-        });
-    }
+  $scope.map = {
+    center: {latitude: 0, longitude: 0},
+    zoom: 12,
+    bounds: {}
+  };
+
+  $scope.options = {
+    
+  };
+
+  $scope.testPHP = function(){
+
+
+  }
+
+  uiGmapGoogleMapApi.then(function(maps) {
+    GeoLocationJSON.getCurrentGeoLocation().then(function(result){
+      console.log(result);
+      $scope.map.center = {latitude: result.coords.latitude, longitude: result.coords.longitude};
+    }, function(err){
+      console.log(err);
+    });
+
+    
+    console.log(locations);
+  });
 
 })
 
@@ -35,13 +60,14 @@ angular.module('app.controllers', [])
 
         var site = new google.maps.LatLng($scope.location.coords.latitude, $scope.location.coords.longitude);
         var hospital = new google.maps.LatLng(39.952706, -75.163720);
-      
+
         var mapOptions = {
           streetViewControl:true,
           center: site,
           zoom: 18,
           mapTypeId: google.maps.MapTypeId.TERRAIN
         };
+
         var map = new google.maps.Map(document.getElementById("map"),
             mapOptions);
 
@@ -80,6 +106,7 @@ angular.module('app.controllers', [])
             destination : hospital,
             travelMode : google.maps.TravelMode.DRIVING
         };
+
         directionsService.route(request, function(response, status) {
             if (status == google.maps.DirectionsStatus.OK) {
                 directionsDisplay.setDirections(response);
@@ -115,7 +142,7 @@ angular.module('app.controllers', [])
       
     })
 
-.controller('locationsCtrl', function($scope, $http, location) {
+.controller('locationsCtrl', function($scope, $http, location, wp) {
   $scope.locations = []; 
 
   $scope.selectItem = function(index){
@@ -123,35 +150,47 @@ angular.module('app.controllers', [])
     location.location.address = $scope.locations[index].location.address;
     location.location.latitude = $scope.locations[index].location.latitude;
     location.location.longitude = $scope.locations[index].location.longitude;
-    location.background.constructed.completed = $scope.locations[index].background.constructed.completed;
-    location.background.constructed.demolished = $scope.locations[index].background.constructed.demolished;
-    location.background.constructed.architect = $scope.locations[index].background.constructed.architect;
+    location.background.construction.completed = $scope.locations[index].background.construction.completed;
+    location.background.construction.demolished = $scope.locations[index].background.construction.demolished;
+    location.background.construction.architect = $scope.locations[index].background.construction.architect;
     location.background.story = $scope.locations[index].background.story;
     location.background.notes = $scope.locations[index].background.notes;
     location.meta.imgID = $scope.locations[index].meta.imgID;
     location.meta.GUID = $scope.locations[index].meta.GUID;
-    console.log(location);
+    
   };
 
+  $scope.showMap = function(){
+    
+  };
 
   $scope.$on('$ionicView.loaded', function(){
     var url = "";
-    
+
     if(ionic.Platform.isAndroid()){
       url = "/android_asset/www/";
     } else {
 
     }
 
-    for(var i=0; i<2; i++){
-      $http.get(url+'assets/locationJSON/b0'+i+'.json').then(function(response){
+    for(var i=0; i<5; i++){
+      $http.get(url+'assets/locationJSON/e'+i+'.json').then(function(response){
+        $scope.locations.push(response.data);
+        wp.push(response.data);
+      }, function(err){
+
+      });
+    }
+
+    for(var i=0; i<4; i++){
+      $http.get(url+'assets/locationJSON/d'+i+'.json').then(function(response){
         $scope.locations.push(response.data);
       }, function(err){
 
       });
     }
   
-    $scope.getFiles();
+    
 
   });
 

@@ -1,0 +1,25 @@
+{
+    "name" : "London Coffee House",
+    
+    "location" : {
+        "address" : "100 Market Street",
+        "latitude" : 39.9495456,
+        "longitude" : -75.1423249
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1702",
+            "demolished" : "1883",
+            "architect" : "Unknown"
+        },
+
+        "story" : "In 1754, to fill the gap left by the retirement of Widow Roberts, whose coffeehouse on Front Street below Blackhorse Alley was the city's most popular, more than 200 Philadelphia merchants subscribed 348 pounds to finance the London Coffee House. As its proprietor, they selected William Bradford, a well-respected printer and publisher, who promptly applied to the governor and council for a liquor license. The coffeehouse hosted frequent slave auctions, like this one advertised in the July 18, 1765, edition of the Pennsylvania Gazette: 'TO BE SOLD, On Saturday the 27th Instant, at the London Coffee House, TWELVE or Fourteen valuable NEGROES, consisting of young Men, Women, Boys and Girls; they have all had the Small Pox, can talk English, and are seasoned to the Country. The Sale to begin at Twelve o’Clock.' When the Revolution began, William Bradford closed the coffeehouse and joined the Continental Army.",
+        "notes" : "Though the famous coffee house was a hot-bed for anti-British agitation, it still fell to the primitive ideals of slavery."
+    },
+
+    "meta" : {
+        "imgID" : "londoncoffeehouse.jpg",
+        "GUID" : "d3"
+    }
+}

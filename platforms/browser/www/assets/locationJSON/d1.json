@@ -1,0 +1,25 @@
+{
+    "name" : "Walnut Street Jail",
+    
+    "location" : {
+        "address" : "Southeast corner of Walnut and 6th streets",
+        "latitude" : 39.94759778,
+        "longitude" : -75.15100111
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1776",
+            "demolished" : "1836",
+            "architect" : "Robert Smith"
+        },
+
+        "story" : "As Philadelphia's population exploded, so did its crime rate. With a night watch consisting only of two paid constables and twelve unpaid volunteers, thefts and assaults grew more frequent.  To stop Philadelphia's crime wave, the Pennsylvania Assembly passed a law on February 23, 1773, authorizing the erection of a new jail. The Walnut Street Jail was built. Head architect Robert Smith design introduced numerous innovations over earlier prisons, which thrust inmates into a common, ﬁlthy pen. At Walnut Street, prisoners would live in separate cells, each with a privy flushed by a roof cistern. Male and female prisoners would be housed in different wings, and hardened criminals would be seperated from lighter offenders.  There were dining rooms, baths, and an inﬁrmary. Tile ﬂoors supported by stone groin vaults made the prison both ﬁreproof and, supposedly, escape-proof. When British forces occupied the city in 1777, the jail became the British provost prison, housing American prisoners of war. Under the sadistic watch of Provost Marshal William Cunningham, inmates were deprived of food, clothing, and blankets. Starving prisoners ate rats, leather scraps, and wood chips; in winter, they shivered as snow and air poured through the open windows. Hundreds of American soldiers were executed or perished from disease, exposure, and malnutrition. Their bodies were buried in mass graves across Sixth Street in the Strangers’ Burying Ground; later Washington Square.",
+        "notes" : "Even after the prison returned to civilian use, it resembled the hellholes it had been designed to replace. In 1787, the Society for Alleviating the Miseries of Public Prisons (today the Pennsylvania Prison Society), organized to inspect and reform the Walnut Street Jail, called it 'an Augean stable of ﬁlth and iniquity,” run by a former tavern owner who prospered selling liquor and collecting bribes from his inmates'."
+    },
+
+    "meta" : {
+        "imgID" : "walnutstreetjail.jpg",
+        "GUID" : "d1"
+    }
+}

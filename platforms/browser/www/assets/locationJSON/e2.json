@@ -1,0 +1,25 @@
+{
+    "name" : "Sesqui-Centennial Exposition Entrance",
+    
+    "location" : {
+        "address" : "Marconi Plaza",
+        "latitude" : 39.915638,
+        "longitude" : -75.171319
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1926",
+            "demolished" : "1927",
+            "architect" : "Westinghouse Electric and Manufacturing Company"
+        },
+
+        "story" : "In 1926, Philadelphia hoped to repeat the dazzling success of the 1876 Centennial with a Sesqui-Centennial International Exposition. Besides celebrating 150 years of independence, the Sesqui-Centennial would herald the nation’s emergence as the world’s technological and industrial leader, showcasing such developments as airplanes, automobiles, radio, motion pictures, electric locomotives, and dial telephones. A giant Liberty Bell at the entrance, ablaze with light, would beckon guests from around the globe to the southernmost tip of Philadelphia.",
+        "notes" : "Reports of the Sesqui-Centennial’s unfinished status, coupled with rain on 107 of its 184 days, dampened enthusiasm. Fewer than seven million of the anticipated forty million visitors actually showed up. When the fair closed in November 1926, the city was left with a $5 million deficit to pay from the public coffers. Today, Marconi Plaza is a nineteen-acre public park, home to bocce courts, Mummers concerts, and an annual Columbus Day festival."
+    },
+
+    "meta" : {
+        "imgID" : "sesqicentennial.jpg",
+        "GUID" : "e2"
+    }
+}

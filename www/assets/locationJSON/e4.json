@@ -1,0 +1,25 @@
+{
+    "name" : "Shibe Park/Connie Mack Stadium",
+    
+    "location" : {
+        "address" : "2701 North 21st Street",
+        "latitude" : 39.995898,
+        "longitude" : -75.165096 
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1909",
+            "demolished" : "1976",
+            "architect" : "Benjamin F. Shibe, William Steele & Sons"
+        },
+
+        "story" : "Constructed for the Philadelphia Athletics at a cost of $300,000 and capable of holding 40,000, Shibe Park was described by the Bulletin as 'the baseball showplace of the country.'",
+        "notes" : "When the Athletics moved to Kansas City in 1954, the Phillies bought the stadium (which was now renamed Connie Mack Stadium) and used it until 1971, when Veterans Stadium was built in South Philadelphia. It was demolished soon after the move. Since 1990, the Deliverance Evangelical Church has stood on the site."
+    },
+
+    "meta" : {
+        "imgID" : "conniemackstadium.jpg",
+        "GUID" : "e4"
+    }
+}

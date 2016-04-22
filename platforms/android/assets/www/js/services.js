@@ -3,6 +3,9 @@ angular.module('app.services', [])
 .factory('BlankFactory', [function(){
 
 }])
+.service('WPMap', [function(){
+
+}])
 .value('location',{ "name": "",
                     "location": {
                       "address": "",
@@ -11,7 +14,7 @@ angular.module('app.services', [])
                     },
 
                     "background": {
-                      "constructed": {
+                      "construction": {
                         "completed": "",
                         "demolished": "",
                         "architect": ""
@@ -35,6 +38,41 @@ angular.module('app.services', [])
   
 }])
 
+.service('genMap',['GeoLocationJSON',function(GeoLocationJSON){
+  var map = '';
+  var waypoints = '';
+  var currentLocation = GeoLocationJSON.getCurrentGeoLocation().then(
+    function(postion){
+      return new google.maps.LatLng(postion);
+    }, function(err){
+
+    });
+
+  return {
+    setMap : function(targetElement){
+      var mapOptions = {
+        streetViewControl:true,
+        center: currentLocation,
+        zoom: 18,
+        mapTypeId: google.maps.MapTypeId.TERRAIN
+      };
+
+      map = new google.maps.Map(targetElement,
+            mapOptions);
+      return this;
+    };
+
+    setWayPoints : function(locations) {
+      waypoints = locations;
+      return this;
+    };
+
+
+
+  }
+  
+}])
+
 .factory('IsAvailable', ['$http', 'data', function($http, data){
   var status = false;
   var obj = {};
@@ -49,6 +87,7 @@ angular.module('app.services', [])
   return status;
 
 }])
+
 
 .factory('GeoLocationJSON',['$q', function($q){
   return {

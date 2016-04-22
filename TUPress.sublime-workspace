@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"lo",
+				"log"
+			],
+			[
+				"file",
+				"fileSystem"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"loca",
+				"locationData"
+			],
+			[
+				"selec",
+				"selectedIndex"
+			],
+			[
+				"sele",
+				"selectedItem"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"res",
+				"resolve"
+			],
+			[
 				"con",
 				"console"
 			],
@@ -68,30 +100,6 @@
 	"buffers":
 	[
 		{
-			"file": "www/index.html",
-			"settings":
-			{
-				"buffer_size": 1531,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/templates/camera.html",
-			"settings":
-			{
-				"buffer_size": 400,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/templates/routes.html",
-			"settings":
-			{
-				"buffer_size": 1381,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "www/templates/login.html",
 			"settings":
 			{
@@ -100,42 +108,10 @@
 			}
 		},
 		{
-			"file": "www/templates/signup.html",
+			"file": "www/templates/locations.html",
 			"settings":
 			{
-				"buffer_size": 1626,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/css/customStyle.css",
-			"settings":
-			{
-				"buffer_size": 89,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/js/services.js",
-			"settings":
-			{
-				"buffer_size": 812,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/js/routes.js",
-			"settings":
-			{
-				"buffer_size": 2264,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/php/tester.php",
-			"settings":
-			{
-				"buffer_size": 37,
+				"buffer_size": 593,
 				"line_ending": "Windows"
 			}
 		},
@@ -143,34 +119,47 @@
 			"file": "www/js/controllers.js",
 			"settings":
 			{
-				"buffer_size": 2561,
+				"buffer_size": 7134,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/X/wamp64/logs/php_error.log",
+			"file": "www/assets/locationJSON/e0.json",
 			"settings":
 			{
-				"buffer_size": 2775,
+				"buffer_size": 1301,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<?php\n   echo \"true\";\n?>",
-			"file": "/C/Users/Brian/AppData/Local/Temp/scp32290/home/TU/tuf37823/public_html/prototype/IsAvailable.php",
-			"file_size": 24,
-			"file_write_time": 131049260880000000,
+			"file": "www/templates/historicalSiteN.html",
 			"settings":
 			{
-				"buffer_size": 24,
-				"line_ending": "Unix"
+				"buffer_size": 916,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/js/app.js",
+			"file": "www/js/services.js",
 			"settings":
 			{
-				"buffer_size": 984,
+				"buffer_size": 2048,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 1737,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/js/routes.js",
+			"settings":
+			{
+				"buffer_size": 2470,
 				"line_ending": "Windows"
 			}
 		}
@@ -182,10 +171,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 58.0,
-		"last_filter": "php",
+		"height": 392.0,
+		"last_filter": "h",
 		"selected_items":
 		[
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
 			[
 				"php",
 				"Set Syntax: PHP"
@@ -252,24 +245,52 @@
 	[
 		"/X/Google Drive/Git/Repos/TemplePress",
 		"/X/Google Drive/Git/Repos/TemplePress/www",
-		"/X/Google Drive/Git/Repos/TemplePress/www/css",
+		"/X/Google Drive/Git/Repos/TemplePress/www/assets",
+		"/X/Google Drive/Git/Repos/TemplePress/www/assets/locationJSON",
 		"/X/Google Drive/Git/Repos/TemplePress/www/js",
-		"/X/Google Drive/Git/Repos/TemplePress/www/php",
 		"/X/Google Drive/Git/Repos/TemplePress/www/templates"
 	],
 	"file_history":
 	[
+		"/X/Google Drive/Git/Repos/TemplePress/www/assets/locationJSON/d0.json",
+		"/X/Google Drive/Git/Repos/TemplePress/www/js/controllers.js",
+		"/C/Users/Brian/Desktop/tester.html",
+		"/X/DOWNLOADS/d4.json",
+		"/X/Google Drive/Git/Repos/TemplePress/www/assets/locationJSON/e0.json",
+		"/X/DOWNLOADS/d0.json",
+		"/X/Google Drive/Git/Repos/TemplePress/www/assets/locationJSON/b01.json",
+		"/X/Google Drive/Git/Repos/TemplePress/www/assets/locationJSON/b00.json",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates/locations.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates/login.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates/routes.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates/signup.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates/tabsController.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates/locationdebug.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates/historicalSiteN.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates/historicalSite2.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/js/routes.js",
+		"/X/Google Drive/Git/Repos/TemplePress/www/css/customStyle.css",
+		"/X/Google Drive/Git/Repos/TemplePress/www/index.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/js/services.js",
+		"/C/Users/Brian/AppData/Local/Temp/Temp1_R7FP-Prototype_Final (1).zip/R7FP-Prototype_Final (1)/external/documents/Map Final_s-Browser_1.html",
+		"/C/Users/Brian/AppData/Local/Temp/Temp1_R7FP-Prototype_Final (1).zip/R7FP-Prototype_Final (1)/resources/prototype-1460785259024.js",
+		"/C/Users/Brian/AppData/Local/Temp/Temp1_R7FP-Prototype_Final (1).zip/R7FP-Prototype_Final (1)/index.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/assets/locationJSON/loc1.json",
+		"/X/Google Drive/Git/Repos/TemplePress/www/php/tester.php",
+		"/X/Google Drive/Git/Repos/TemplePress/www/js/app.js",
+		"/X/Google Drive/Git/Repos/TemplePress/config.xml",
+		"/C/Users/Brian/AppData/Local/Temp/scp32290/home/TU/tuf37823/public_html/prototype/IsAvailable.php",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates/book.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/templates/camera.html",
+		"/X/Google Drive/Git/Repos/TemplePress/www/lib/angular/angular.min.js.map",
+		"/C/Users/Brian/AppData/Local/Temp/Temp1_Shi App.zip/Shi App/www/spec/index.js",
+		"/C/Users/Brian/AppData/Local/Temp/Temp1_Shi App.zip/Shi App/www/spec.html",
+		"/C/Users/Brian/AppData/Local/Temp/Temp1_Shi App.zip/Shi App/www/index.html",
+		"/C/Users/Brian/AppData/Local/Temp/Temp1_Shi App.zip/Shi App/www/js/index.js",
+		"/X/wamp64/logs/php_error.log",
 		"/X/wamp64/www/php/IsAvailable.php",
 		"/C/Users/Brian/AppData/Local/Temp/scp13880/home/TU/tuf37823/public_html/prototype/IsAvailable.php",
 		"/C/Users/Brian/AppData/Local/Temp/scp12662/home/TU/tuf37823/public_html/prototype/IsAvailable.php",
-		"/X/Google Drive/Git/Repos/TemplePress/www/css/customStyle.css",
-		"/X/Google Drive/Git/Repos/TemplePress/www/templates/book.html",
-		"/X/Google Drive/Git/Repos/TemplePress/www/js/routes.js",
-		"/X/Google Drive/Git/Repos/TemplePress/www/js/services.js",
-		"/X/Google Drive/Git/Repos/TemplePress/www/templates/historicalSiteN.html",
-		"/X/Google Drive/Git/Repos/TemplePress/www/templates/camera.html",
-		"/X/Google Drive/Git/Repos/TemplePress/www/templates/routes.html",
-		"/X/Google Drive/Git/Repos/TemplePress/www/js/controllers.js",
 		"/X/Google Drive/Git/Repos/TemplePress/platforms/android/.gitignore",
 		"/X/Google Drive/Git/Repos/TemplePress/www/lib/EaselJS/lib/easeljs-0.8.2.combined.js",
 		"/X/Google Drive/Git/Repos/TemplePress/www/book.html",
@@ -358,23 +379,7 @@
 		"/X/Google Drive/Util/Sublime Text Build 3103 x64/Data/Packages/User/Base File.sublime-settings",
 		"/X/Google Drive/Util/Sublime Text Build 3103 x64/Data/Packages/User/GitHub.sublime-settings",
 		"/X/Google Drive/Git/Repos/Otiose/OtioseGame/Otiose/ECS/Input/PlayerInputManager.cs",
-		"/X/css/style.css",
-		"/X/Google Drive/Util/Sublime Text Build 3103 x64/Data/Packages/sublime-github/GitHub.sublime-settings",
-		"/X/Google Drive/Git/Repos/Otiose/OtioseGame/Otiose/ECS/InputComponent.cs",
-		"/X/Google Drive/Util/Sublime Text Build 3103 x64/Data/Packages/User/Side Bar.sublime-settings",
-		"/X/Google Drive/Util/Sublime Text Build 3103 x64/Data/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
-		"/X/Google Drive/Util/Sublime Text Build 3103 x64/Data/Packages/SublimeLinter/Default (Windows).sublime-keymap",
-		"/X/DOWNLOADS/Sublime Text Build 3103 x64/Data/Packages/User/Default (Windows).sublime-keymap",
-		"/X/DOWNLOADS/Sublime Text Build 3103 x64/Data/Packages/User/Side Bar.sublime-settings",
-		"/X/DOWNLOADS/Sublime Text Build 3103 x64/Data/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
-		"/X/DOWNLOADS/Sublime Text Build 3103 x64/Data/Packages/SideBarEnhancements/Side Bar.sublime-settings",
-		"/X/php/test.php",
-		"/X/DOWNLOADS/Sublime Text Build 3103 x64/Data/Packages/AdvancedNewFile/README.md",
-		"/X/DOWNLOADS/Sublime Text Build 3103 x64/Data/Packages/AdvancedNewFile/Default (Windows).sublime-keymap",
-		"/X/Google Drive/Temple/Courses/CIS/1052/lab4/test.cpp",
-		"/X/DOWNLOADS/Sublime Text Build 3103 x64/Data/Packages/User/Preferences.sublime-settings",
-		"/X/DOWNLOADS/Sublime Text Build 3103 x64/Data/Packages/Default/Preferences.sublime-settings",
-		"/X/DOWNLOADS/Sublime Text Build 3103 x64/Data/Packages/User/JSON.sublime-settings"
+		"/X/css/style.css"
 	],
 	"find":
 	{
@@ -385,6 +390,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"X:\\Google Drive\\Git\\Repos\\TemplePress",
 			"X:\\Google Drive\\Temple\\Courses\\CIS\\1052\\lab4",
 			"X:\\Google Drive\\Temple\\Courses\\CIS\\1052\\lab4\\js"
 		]
@@ -394,6 +400,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"constructed",
+			"Constructed",
+			"constructed",
+			"text",
+			"name",
+			"HS2",
+			"page10",
 			"username",
 			"historicalSite2Ctrl",
 			"',",
@@ -435,269 +448,16 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "www/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1531,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								273,
-								273
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "www/templates/camera.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 400,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								367,
-								367
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "www/templates/routes.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1381,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								829,
-								829
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "www/templates/login.html",
 					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 972,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								903,
-								903
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "www/templates/signup.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1626,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1562,
-								1562
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "www/css/customStyle.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 89,
-						"regions":
-						{
-							"gutter_color_11":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ef473a.png",
-								"regions":
-								[
-									[
-										11,
-										41
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_56":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#33cd5f.png",
-								"regions":
-								[
-									[
-										56,
-										86
-									]
-								],
-								"scope": "gutter_color"
-							}
-						},
-						"selection":
-						[
-							[
-								89,
-								89
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "www/js/services.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 812,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								812,
-								812
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "www/js/routes.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2264,
 						"regions":
 						{
 						},
@@ -713,70 +473,162 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 168.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 8,
-					"file": "www/php/tester.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 37,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								33,
-								33
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"open_with_edit": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "www/js/controllers.js",
+					"buffer": 1,
+					"file": "www/templates/locations.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2561,
+						"buffer_size": 593,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								916,
-								916
+								410,
+								410
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/js/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4179,
+								4179
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1344.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/assets/locationJSON/e0.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "www/templates/historicalSiteN.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 916,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								718,
+								718
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "www/js/services.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2048,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1299,
+								1299
 							]
 						],
 						"settings":
@@ -794,22 +646,28 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 10,
-					"file": "/X/wamp64/logs/php_error.log",
+					"buffer": 6,
+					"file": "www/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2775,
+						"buffer_size": 1737,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2775,
-								2775
+								753,
+								753
 							]
 						],
 						"settings":
@@ -817,61 +675,32 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "/C/Users/Brian/AppData/Local/Temp/scp32290/home/TU/tuf37823/public_html/prototype/IsAvailable.php",
+					"buffer": 7,
+					"file": "www/js/routes.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 24,
+						"buffer_size": 2470,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "www/js/app.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 984,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								984,
-								984
+								856,
+								856
 							]
 						],
 						"settings":
@@ -884,10 +713,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 294.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -921,7 +750,7 @@
 		"cols":
 		[
 			0.0,
-			0.529090909091,
+			0.444848484849,
 			1.0
 		],
 		"rows":
@@ -942,6 +771,10 @@
 	"output.sftp":
 	{
 		"height": 146.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 94.0
 	},
 	"pinned_build_system": "Packages/User/ChooseBrowser.sublime-build",
 	"project": "TUPress.sublime-project",
@@ -1081,7 +914,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
