@@ -1,0 +1,25 @@
+{
+    "name" : "Crosstown Expressway/Southbridge",
+    
+    "location" : {
+        "address" : "Between South and Fitzwater streets",
+        "latitude" : 39.94008446,
+        "longitude" : -75.144234
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "originated 1947",
+            "demolished" : "n/a",
+            "architect" : "Modjeski and Masters"
+        },
+
+        "story" : "For decades, South Street had been the historic center of Philadelphia's African American community. Nearby Mercy Hospital was founded in 1907 as the city's ﬁrst African American hospital. In the twentieth century, South Street was the African American commercial and entertainment district, home to black jazz clubs and theaters. When the redevelopment of Society Hill displaced many of its minority residents in the 1950s, a number relocated to South Street. By 1959, the City Planning Commission had announced plans for a four-lane sunken highway running along South Street. The Pennsylvania Department of Highways began to purchase rights-of-way on and around South Street, causing many businesses and residents to sell out and leave. The 2.8-mile highway, connecting the Schuylkill and Delaware Expressways on Center City's southern edge, would eradicate Kater and Bainbridge streets and displace an estimated 2,000 households. Strong opposition from the Crosstown community stopped the highway from proceeding and later PennDOT's 1977 decision to halt all proposed highway projects ﬁnally killed it. Once plans for the Crosstown Expressway died, South Street grew more upscale, with an eclectic mixture of boutiques, restaurants, nightclubs, and theaters. Today, despite concerns over violence and rowdyism, South Street remains one of the city's most vibrant shopping and entertainment districts.",
+        "notes" : "The highway was never actually built."
+    },
+
+    "meta" : {
+        "imgID" : "crosstown.jpg",
+        "GUID" : "d9"
+    }
+}

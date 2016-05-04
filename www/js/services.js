@@ -6,6 +6,12 @@ angular.module('app.services', [])
 .service('WPMap', [function(){
 
 }])
+
+.value('account', {"email": "",
+                        "password": "",
+                        "name" : "",
+                        "loggedin" : "false"})
+
 .value('location',{ "name": "",
                     "location": {
                       "address": "",
@@ -29,6 +35,8 @@ angular.module('app.services', [])
                       "GUID": ""
                     }})
 
+
+
 .factory('locationData', [function(){
   var location = {};
 
@@ -37,7 +45,10 @@ angular.module('app.services', [])
   }
   
 }])
-.value('wp', wp = [])
+.value('routeList', [])
+.value('updated', updated = false)
+.value('locationList', [])
+.value('wp',[])
 
 .factory('genMap',['GeoLocationJSON',function(GeoLocationJSON){
   var map = {

@@ -23,7 +23,8 @@ angular.module('app.routes', [])
   .state('tabsController', {
     url: '/page1',
     templateUrl: 'templates/tabsController.html',
-    abstract:true
+    abstract:true,
+    controller: 'tabsCtrl'
   })
 
   .state('tabsController.locations', {
@@ -76,6 +77,26 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('tabsController.mapdisplay', {
+    url: '/gmap',
+    views: {
+      'tab3': {
+        templateUrl: 'templates/mapdisplay.html',
+        controller: 'locationsCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.account', {
+    url: '/accntp',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/accnt.html',
+        controller: 'accntCtrl'
+      }
+    }
+  })
+
   .state('tabsController.login', {
     url: '/page11',
     views: {
@@ -117,7 +138,7 @@ angular.module('app.routes', [])
   })
 
 
-$urlRouterProvider.otherwise('/page1/page12')
+$urlRouterProvider.otherwise('/page1/page11')
 
   
 

@@ -1,0 +1,25 @@
+{
+    "name" : "African Church of Philadelphia (African Episcopal Church of St.Thomas)",
+    
+    "location" : {
+        "address" : "Southwest corner of Fifth and Adelphi streets (St.James’Place)",
+        "latitude" : 39.9468186,
+        "longitude" : -75.1496703
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1794",
+            "demolished" : "1887",
+            "architect" : "Unknown"
+        },
+
+        "story" : "The white elders of St. George's insisted that its black members sit in a newly built upper gallery and physically removed those sitting downstairs during services. In response, Richard Allen, Absalom Jones and other black Methodists left St. George's en masse and established the African Church of Philadelphia. With the support of the Society of Friends, the Pennsylvania Abolition Society, and private citizens, they purchased land at Fifth and Adelphi streets and began construction.",
+        "notes" : "The first free black church in the northern states of the new American republic."
+    },
+
+    "meta" : {
+        "imgID" : "africanchurch.jpg",
+        "GUID" : "d5"
+    }
+}

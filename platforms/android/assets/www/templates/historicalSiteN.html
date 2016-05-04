@@ -1,16 +1,28 @@
-<ion-view title="{{selectedItem.name}}" id="page10">
+<ion-view title="{{selectedItem.name}}" id="page10" style="background-color: D3D3D3;">
     <ion-content overflow-scroll="true" padding="true" class="has-header">
         <div class="card">
           <div class="item item-divider">
-            <h5>{{selectedItem.name}}</h5>
             <p>Address: {{selectedItem.location.address}}</p>
+            <p id="lat">{{selectedItem.location.latitude}}</p>
+            <p id="long">{{selectedItem.location.longitude}}</p>
           </div>
           <div class="item item-text-wrap">
-            <img src="{{imageLocation}}" alt="">
-            <br>
-            <p>{{selectedItem.background.story}}</p>
-            <br>
-            <p>{{selectedItem.background.notes}}</p>
+            <div class="row">
+              <div class="col col-50 col-offset-25">
+                <img src="assets/locationJPEG/{{selectedItem.meta.GUID}}.jpg" style="height: 100%; width: 100%;" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <h2>{{selectedItem.background.story}}</h2>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col">
+                <p>{{selectedItem.background.notes}}</p>
+              </div>
+            </div>            
           </div>
           <div class="item item-divider">
             <p>Architect: {{selectedItem.background.construction.architect}}</p>
@@ -18,5 +30,6 @@
             <p>Demolished: {{selectedItem.background.construction.demolished}}</p>
           </div>
     </div>
+    <button on-tap="addtoroute()">Add to Route</button>
     </ion-content>
 </ion-view>

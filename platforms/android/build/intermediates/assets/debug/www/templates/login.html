@@ -3,16 +3,17 @@
         <form class="list">
             <ion-list>
                 <label class="item item-input">
-                    <span class="input-label">Username</span>
-                    <input type="text" placeholder="" name="username">
+                    <input type="text" placeholder="E-Mail" ng-model="inputForm.email" name="email">
                 </label>
                 <label class="item item-input">
-                    <span class="input-label">Password</span>
-                    <input type="password" placeholder="" name="password">
+                    <input type="password" placeholder="Password" ng-model="inputForm.password" name="password">
                 </label>
             </ion-list>
-            <div class="spacer" style="width: 283px; height: 107px;"></div>
-            <button id="login-button1" class="button button-stable  button-block">Log in</button>
+            <div class="list" ng-repeat="message in messagelog">
+                <p>{{message}}</p>
+            </div>
+            <div class="spacer" style="width: 283px; height: 50px;"></div>
+            <button id="login-button1" on-tap="submittal($event)" class="button button-stable  button-block">Log in</button>
             <a ui-sref="tabsController.signup" id="login-button2" class="button button-positive  button-block button-clear">Or create an account</a>
         </form>
     </ion-content>

@@ -1,0 +1,25 @@
+{
+    "name" : "Pennsylvania Hall",
+    
+    "location" : {
+        "address" : "West side of Sixth Street between Race and Cherry",
+        "latitude" : 39.95408775,
+        "longitude" : -75.14982641
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1838",
+            "demolished" : "1838",
+            "architect" : "Unknown"
+        },
+
+        "story" : "In 1837, abolitionists formed a joint stock company called the Pennsylvania Hall Association to erect a building dedicated 'to Liberty and the Rights of Man.' Pennsylvania Hall not only would serve as a meeting place, publishing office, and bookstore, but also would symbolize the growing abolitionist movement in Philadelphia. Besides abolitionism, the hall would serve as a center for such allied causes as temperance, women's rights, Indian rights, and free education. More than 2,000 people bought shares, raising $40,000 dollars to build Pennsylvania Hall.",
+        "notes" : "On Wednesday, May 16, and Thursday, May 17, hostile crowds gathered outside Pennsylvania Hall, growing more violent as the  Anti-Slavery Convention of American Women progressed. When the managers requested protection from Mayor John Swift, he refused to intercede on the convention's behalf. The managers cancelled the evening's lectures, closed the hall, and turned its keys over to the mayor in the presence of the crowd outside the building. Swift accepted the keys, arrested one troublemaker, asked the mob to behave, and went home. Shortly after Swift left, the mob battered down the doors, wrecked the hall, turned on the gas, and set a fire. According to newspaper reports, a crowd of nearly 15,000 watched the destruction, yet police made no effort to protect the building or arrest the arsonists. Volunteer ﬁremen hosed down surrounding buildings but did not attempt to extinguish the blaze. The destruction of Pennsylvania Hall unleashed a wave of violence against the city's black community; mobs attacked the Shelter for Colored Orphans and the Bethel Church on Friday night."
+    },
+
+    "meta" : {
+        "imgID" : "pennhall.jpg",
+        "GUID" : "d7"
+    }
+}

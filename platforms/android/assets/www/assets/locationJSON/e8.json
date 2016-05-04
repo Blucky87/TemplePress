@@ -1,0 +1,25 @@
+{
+    "name" : "Bingham Mansion House",
+    
+    "location" : {
+        "address" : "West side of South Third Street between Walnut and Spruce streets",
+        "latitude" : 39.945869,
+        "longitude" : -75.147050
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1787",
+            "demolished" : "1850",
+            "architect" : "John Plaw"
+        },
+
+        "story" : "After the Revolution, William Bingham and his wife spent four years in Europe, where they grew enamored of English styles and status. When they returned home in 1786, they decided to build a larger version of the London house of the Duke of Manchester on Third Street, the most fashionable thoroughfare in Society Hill.",
+        "notes" : "After Bingham’s death in 1804, the mansion became the Mansion-House Hotel, the city’s most luxurious hotel, charging its guests an astronomical ten dollars a week. Fires in 1823 and 1847 ruined the mansion beyond repair, and it was demolished around 1850. It was replaced by a row of brownstones built by Michael Bouvier, great-greatgrandfather of Jacqueline Bouvier Kennedy Onassis, several of which still stand."
+    },
+
+    "meta" : {
+        "imgID" : "binghammansion.jpg",
+        "GUID" : "e8"
+    }
+}

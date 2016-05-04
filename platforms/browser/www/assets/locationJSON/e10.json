@@ -1,0 +1,25 @@
+{
+    "name" : "United States Mint",
+    
+    "location" : {
+        "address" : " 37–39 North Seventh Street (east side, between Arch and Filbert streets)"
+        "latitude" : 39.952204,
+        "longitude" : -75.151687
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1792",
+            "demolished" : "1911",
+            "architect" : "Unknown"
+        },
+
+        "story" : "In February 1791, the Bank of the United States was chartered as the country’s national bank. As the next step, an act passed in April 1792 established a national mint that would produce coins using the decimal system, rather than the British method of pounds, shillings, and pence. David Rittenhouse, the first director, purchased two lots on Seventh Street north of Sugar Alley (later Farmer Street and then Filbert Street). Within a few months, the three structures of the U.S. Mint were in place.",
+        "notes" : "The mint remained on Seventh Street until 1833, when it moved to a larger, modern facility at Chestnut and Juniper streets."
+    },
+
+    "meta" : {
+        "imgID" : "usmint.jpg",
+        "GUID" : "e10"
+    }
+}

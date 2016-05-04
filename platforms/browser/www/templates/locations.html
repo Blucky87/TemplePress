@@ -1,14 +1,18 @@
-<ion-view title="Locations" id="page5" style="background-color:#FFFFFF;">
+<ion-view title="Locations" id="page5" style="background-color: #D3D3D3;" >
     <ion-content padding="true" class="has-header" id="lister">
-        <button nav-direction="swap"id="locations-button11" class="button button-balanced  button-block" ng-click="showMap();"> View all on Map</button>
+      <ion-refresher
+        pulling-text="Pull to refresh..."
+        on-refresh="doRefresh()" 
+        disable-pulling-rotation="false">
+      </ion-refresher>
+        <a nav-direction="swap" id="locations-button11" class="button button-balanced  button-block" ui-sref="tabsController.mapdisplay" ng-click=""> View all on Map</a>
         <div class="spacer" style="width: 283px; height: 42px;"></div>
         <div class="list" ng-repeat="item in locations">
             <a class="item item-thumbnail-left" ui-sref="tabsController.historicalSiteN" id="$index" ng-click="selectItem($index);">
-                <img src="assets/locationJPEG/{{item.meta.GUID}}.jpg" alt="">
+                <img ng-src="assets/locationJPEG/{{item.meta.GUID}}.jpg" alt="">
                 <h2>{{item.name}}</h2>
-                <h5>   {{item.location.address}}</h5>
+                <h5>{{item.location.address}}</h5>
             </a>
-            <!-- <ion-item ui-sref="tabsController.historicalSiteN" id="$index" ng-click="selectItem($index);">{{item.name}}</ion-item> -->
         </ion-list>
     </ion-content>
 </ion-view>

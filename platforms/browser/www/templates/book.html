@@ -1,16 +1,21 @@
 <ion-view title="Book" id="page2">
     <ion-content overflow-scroll="true" padding="true" class="has-header">
-        <h1 id="book-heading3" style="color:#000000;text-align:center;">Order the Book</h1>
-        <div id="mapCanvas" style="width: 283px; height: 419px;">
-            <ui-gmap-google-map id="map2" events="map.events" center="map.center" zoom="map.zoom" draggable="true" options="options" bounds="map.bounds">
-                <div ng-repeat="loc in locations">
-                    <ui-gmap-marker idKey="loc.meta.GUID" coords="loc.location">
-                    </ui-gmap-marker>
-                </div>
-            </ui-gmap-google-map>
+        <br>
+        <div class="row">
+            <div class="col col-80 col-offset-10">
+                <button class="button center button-positive" onclick="window.open('http://www.temple.edu/tempress/titles/1852_reg.html', '_system', 'location=yes'); return false;">Purchase Forgotten Philadelphia</button>
+            </div>
         </div>
-        <button ng-click="testPHP()" class="button button-assertive button-full icon-left ion-ios-pulse-strong">INTERNAL PHP Test Button</button>
-        <p>PHP Test Result: {{testResult}}</p>
+
+        <br>
+        <br>
+    
+        <p>Forgotten Philadelphia provides a richly illustrated survey of landmark Philadelphia buildings that have succumbed to the ravages of time and changing tastes. More than three centuries of masterful architecture, from William Penn's Slate Roof House to Romaldo Giurgola's Liberty Bell Pavilion, demolished only last year, are brought back to life in this beautifully designed book. Writing with obvious affection as well as a deep knowledge of his subjects, Thomas Keels employs photographs, drawings, prints, maps, and architectural plans to revisit these vanished treasures.</p>
+
+        <br>
+
+        <p>Unlike other books on landmark buildings, Forgotten Philadelphia discusses works of architecture not only from a design standpoint but also in terms of their significance to the city's political, economic, and cultural life. Organized chronologically from 1682 to the present, this book provides a context that allows readers to understand how tastes change over time, rendering obsolete the very buildings that were once considered to be works of art and genius. The final chapter, "Projected Philadelphia," describes fifteen structures that might have changed the face of the city had they ever moved beyond the drafting table.</p>
+
     </ion-content>
     
 </ion-view>

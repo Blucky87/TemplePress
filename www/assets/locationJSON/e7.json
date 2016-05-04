@@ -1,0 +1,25 @@
+{
+    "name" : "Benjamin Franklin House/Franklin Court",
+    
+    "location" : {
+        "address" : "Orianna Street south of Market Street, between Third and Fourth streets",
+        "latitude" : 39.949533,
+        "longitude" : -75.146606
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1753",
+            "demolished" : "1986",
+            "architect" : "Unknown"
+        },
+
+        "story" : "In 1763, fifty-seven-year-old Benjamin Franklin had returned to Philadelphia after a seven-year stint as colonial agent in London. Rather than build a country estate, Franklin wanted to stay in the city. Just as construction began, Franklin was appointed agent for the Province of Pennsylvania to the English government, leaving Philadelphia in 1764. He had no way of knowing that of the remaining thirty-six years of his life, he would spend only seven in his own house.",
+        "notes" : "After Franklin’s death in 1790, his daughter and son-in-law sold his possessions at auction and rented the house to the Portuguese minister to the United States. Over the next decade, the house served as a boardinghouse, a female academy, a coffeehouse, and the home of the African Free School. In 1812, Franklin’s house was demolished, along with the printing shop."
+    },
+
+    "meta" : {
+        "imgID" : "franklinhouse.jpg",
+        "GUID" : "e7"
+    }
+}

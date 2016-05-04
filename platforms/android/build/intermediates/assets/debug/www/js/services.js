@@ -6,6 +6,12 @@ angular.module('app.services', [])
 .service('WPMap', [function(){
 
 }])
+
+.value('account', {"email": "",
+                        "password": "",
+                        "name" : "",
+                        "loggedin" : "false"})
+
 .value('location',{ "name": "",
                     "location": {
                       "address": "",
@@ -29,6 +35,8 @@ angular.module('app.services', [])
                       "GUID": ""
                     }})
 
+
+
 .factory('locationData', [function(){
   var location = {};
 
@@ -37,40 +45,71 @@ angular.module('app.services', [])
   }
   
 }])
+.value('routeList', [])
+.value('updated', updated = false)
+.value('locationList', [])
+.value('wp',[])
 
-.service('genMap',['GeoLocationJSON',function(GeoLocationJSON){
-  var map = '';
-  var waypoints = '';
-  var currentLocation = GeoLocationJSON.getCurrentGeoLocation().then(
-    function(postion){
-      return new google.maps.LatLng(postion);
-    }, function(err){
-
-    });
-
-  return {
+.factory('genMap',['GeoLocationJSON',function(GeoLocationJSON){
+  var map = {
+    gMap : null,
+    waypoints : [],
+    origin: null,
+    markers: [],
+    infoWindows: [],
     setMap : function(targetElement){
-      var mapOptions = {
-        streetViewControl:true,
-        center: currentLocation,
-        zoom: 18,
-        mapTypeId: google.maps.MapTypeId.TERRAIN
-      };
+      var currentLocation = GeoLocationJSON.getCurrentGeoLocation().then(
+        function(postion){
+          var temp = new google.maps.LatLng(postion.coords.latitude, postion.coords.longitude);
+          var mapOptions = {
+            streetViewControl: true,
+            center: temp,
+            zoom: 18,
+            mapTypeId: google.maps.MapTypeId.TERRAIN
+            
+          };
+          map.gMap = new google.maps.Map(targetElement, mapOptions);
 
-      map = new google.maps.Map(targetElement,
-            mapOptions);
-      return this;
-    };
+        }, function(err){
 
-    setWayPoints : function(locations) {
-      waypoints = locations;
-      return this;
-    };
+        });
 
+      return map;
+    },
 
+    addWayPoint : function(locations) {
+      console.log(locations);
+      for(var i=0; i<locations.length; i++){
+        
+        map.waypoints.push(locations[i]);
+      }
+      return map;
+    },
 
-  }
-  
+    buildMarkers : function(){
+      for(var i=0; i< map.waypoints.length; i++){
+        console.log(map.waypoints[i]);
+        var tempPos = new google.maps.LatLng(map.waypoints[i].location.latitude, map.waypoints[i].location.longitude);
+        var tempMarker = new google.maps.Marker({
+          position: tempPos,
+          map: map.gMap,
+          title: map.waypoints[i].name
+        });
+
+        var tempWindow = new google.maps.InfoWindow({
+             content: map.waypoints[i].name
+        });
+
+        tempWindow.open(map.gMap, tempMarker);
+        map.markers.push(tempMarker);
+        map.infoWindows.push(tempWindow);
+      }
+
+      return map;
+    }
+  };
+
+  return map;
 }])
 
 .factory('IsAvailable', ['$http', 'data', function($http, data){

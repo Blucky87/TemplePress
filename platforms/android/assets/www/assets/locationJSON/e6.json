@@ -1,0 +1,25 @@
+{
+    "name" : "Second Presbyterian Church",
+    
+    "location" : {
+        "address" : "Northwest corner of Arch and Third streets",
+        "latitude" : 39.952184,
+        "longitude" : -75.145222
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1752",
+            "demolished" : "1837",
+            "architect" : "Robert Smith, Thomas Nevell"
+        },
+
+        "story" : "In 1743, about 140 Presbyterians split from the original church to organize the Second Presbyterian Church. Originally, they met in the New Building on Fourth Street below Arch, later the birthplace of the University of Pennsylvania. When the New Building was sold in 1747, the Second Presbyterian Church was forced to find a new home.",
+        "notes" : "By 1837, not only was the church too small, but its neighborhood had grown commercial and noisy, especially after the repeal of a law permitting the church to close Arch and Third streets to traffic on Sundays. In 1837, the building was sold and torn down, and the congregation moved to “a beautiful marble front church” on Seventh Street below Arch."
+    },
+
+    "meta" : {
+        "imgID" : "secondpresbyterian.jpg",
+        "GUID" : "e6"
+    }
+}

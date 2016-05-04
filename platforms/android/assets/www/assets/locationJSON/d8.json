@@ -1,0 +1,25 @@
+{
+    "name" : "Breintnall House/Benezet House",
+    
+    "location" : {
+        "address" : "325 Chestnut Street (today the northwest corner of Chestnut and Orianna streets)",
+        "latitude" : 39.94909131,
+        "longitude" : -75.14720052
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1700",
+            "demolished" : "1818",
+            "architect" : "Unknown"
+        },
+
+        "story" : "A brick town house at 325 Chestnut Street (historically 115 Chestnut) built for the wealthy Quaker merchant David Breintnall was one of the first substantial houses in Philadelphia. In 1753, the house was acquired by Anthony Benezet, a Frenchborn Quaker educator and philanthropist who has been called 'America's ﬁrst great humanitarian reformer, the epitome of all that was comprehended in the phrase 'the good Quaker.'' Benezet established schools dedicated to teaching African Americans, Native Americans, and poor females, which he ran out of his Chestnut Street house until his death in 1784. In his will, he left his house and lot, as well as the remainder of his estate, to the support of 'a religious-minded person, or persons, to teach a number of negro, mulatto, or Indian children to read, write, arithmetic, plain accounts, needle work, etc.'",
+        "notes" : "Despite the terms of Benezet's will, a succession of small businesses rented his house, including a bonnet maker, a broker, and a currier (leather processor), reﬂecting the transformation of lower Chestnut Street from a residential to a commercial district."
+    },
+
+    "meta" : {
+        "imgID" : "benezethouse.jpg",
+        "GUID" : "d8"
+    }
+}

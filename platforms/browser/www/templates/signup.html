@@ -3,27 +3,23 @@
         <form class="list" onsubmit="return false;">
             <ion-list>
                 <label class="item item-input">
-                    <span class="input-label">Name</span>
-                    <input type="text" ng-model="inputForm.name" placeholder="" name="name">
+                    <input type="text" ng-model="inputForm.name" placeholder="Full Name" name="name">
                 </label>
                 <label class="item item-input">
-                    <span class="input-label">Email</span>
-                    <input type="text" ng-model="inputForm.email" placeholder="" name="email">
+                    <input type="text" class="{{emailconfirm}}" ng-model="inputForm.email" placeholder="Email" name="email">
                 </label>                
                 <label class="item item-input">
-                    <span class="input-label">Username</span>
-                    <input type="text" ng-model="inputForm.username" placeholder="" name="username">
+                    <input type="password" class="pwd {{passconfirm}}" ng-model="inputForm.password" placeholder="Password" name="password">
                 </label>
                 <label class="item item-input">
-                    <span class="input-label pwd">Password</span>
-                    <input type="password" class="pwd" ng-model="inputForm.password" placeholder="" name="password">
-                </label>
-                <label class="item item-input">
-                    <span class="input-label pwd">Repeat Password</span>
-                    <input type="password" class="pwd" ng-model="inputForm.rpassword" placeholder="" name="rpassword">
+                    <input type="password" class="pwd {{passconfirm}}" ng-model="inputForm.rpassword" placeholder="Repeat Password" name="rpassword">
                 </label>                
             </ion-list>
-            <button id="signup-button3" class="button button-stable  button-block" on-tap="submittal($event)">Sign up</button>
+            <br>
+            <div class="list" ng-repeat="message in messagelog">
+                <p>{{message}}</p>
+            </div>
+            <button id="signup-button3" class="button button-stable btn-primary button-block" on-tap="submittal($event)">Sign up</button>
         </form>
     </ion-content>
 </ion-view>

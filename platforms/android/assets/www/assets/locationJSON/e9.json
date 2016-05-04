@@ -1,0 +1,25 @@
+{
+    "name" : "Library Hall/The Library Company of Philadelphia",
+    
+    "location" : {
+        "address" : "105 South Fifth Street (east side, between Chestnut and Walnut)",
+        "latitude" : 39.948415,
+        "longitude" : -75.148959
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1790",
+            "demolished" : "1887",
+            "architect" : "William Thornton"
+        },
+
+        "story" : "The first circulating library in America was founded in 1731 by Benjamin Franklin and a group of young tradesmen and mechanics bent on self-improvement and self-advancement. Unable to afford their own books, the fifty original members each subscribed forty shillings, plus ten shillings a year, to buy books and maintain a shareholder’s library. With its extensive collection in history, law, and politics, the Library Company served as the first Library of Congress for delegates to the two Continental Congresses and the Constitutional Convention. In 1789, the directors of the Library Company purchased land on Fifth Street, to build their own library instead of renting space from other landowners.",
+        "notes" : "By the 1860s, Library Hall contained nearly 100,000 volumes, as well as the 10,000 books of the Loganian Library. In addition, the building held such treasures as William Penn’s desk and grandfather clock, James Logan’s library table from Stenton, and a huge bust of Minerva that had once graced the House of Representatives at Sixth and Chestnut streets."
+    },
+
+    "meta" : {
+        "imgID" : "librarycompany.jpg",
+        "GUID" : "e9"
+    }
+}

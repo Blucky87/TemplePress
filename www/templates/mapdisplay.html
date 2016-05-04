@@ -1,0 +1,14 @@
+<ion-view title="Locations on Map" id="page10">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <button class="button button-assertive button-full" ng-click="center();">Center on Current Location</button>
+        <div id="mapCanvas" style="width: 100%; height: 100%;">
+            <ui-gmap-google-map id="gmap" events="map.events" center="map.center" zoom="map.zoom" draggable="true" options="options" bounds="map.bounds">
+                <div ng-repeat="loc in locations">
+                    <ui-gmap-marker idKey="loc.meta.GUID" coords="loc.location" click="selectMarker($index);">
+
+                    </ui-gmap-marker>
+                </div>
+            </ui-gmap-google-map>
+        </div>
+    </ion-content>
+</ion-view>

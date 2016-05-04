@@ -10,13 +10,13 @@
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "com.ionicframework.tupress912895"
         },
-        "cordova-plugin-whitelist": {
+        "cordova-plugin-file": {
             "PACKAGE_NAME": "com.ionicframework.tupress912895"
         },
         "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "com.ionicframework.tupress912895"
         },
-        "cordova-plugin-file": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ionicframework.tupress912895"
         }
     },

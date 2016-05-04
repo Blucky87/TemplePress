@@ -1,22 +1,15 @@
 <ion-view title="Routes" id="page14">
     <ion-content overflow-scroll="true" padding="true" class="has-header">
-        <h4 id="routes-heading1" style="color:#000000;text-align:center;">Transportation Mode</h4>
-        <div class="button-bar" id="nav-mode-select">
-            <button  id="carNavBtn" class="button button-calm button-block icon ion-android-car" name="car" on-tap="navSelectBtn($event)"></button>
-            <button id="busNavBtn" class="button button-positive  button-block icon ion-android-bus" name="public" on-tap="navSelectBtn($event)"></button>
-            <button id="walkNavBtn" class="button button-positive  button-block icon ion-android-walk" name="walk" on-tap="navSelectBtn($event)"></button>
-            <button id="bikeNavBtn" class="button button-positive  button-block icon ion-android-bicycle" name="bike" on-tap="navSelectBtn($event)"></button>
-        </div>
-        <button id="routes-button9" class="button button-positive  button-block button-clear icon ion-android-add">Add Location To Route</button>
-        <h4 id="routes-heading2" style="color:#000000;"></h4>
-        <form class="list"></form>
-        <ion-list></ion-list>
-        <ion-list>
-            <ion-item>Item 1</ion-item>
-        </ion-list>
-        <button id="routes-button10" class="button button-positive button-block">Start Route</button>
-        <ion-list>
-            <ion-item ui-sref="tabsController.locationdebug">debug</ion-item>
-        </ion-list>
+        <google-map control="map.control" center="map.center" zoom="map.zoom" id="map">
+          <marker coords="marker.center"></marker>
+        </google-map>
+
+            <div class="col-sm-offset-2 col-sm-8">
+              <button class="btn btn-primary" ng-click="getDirections()">Get Directions</button>
+          </div>
+        </form>
+        
+        <div id="directionsList" ng-show="directions.showList" class="panel panel-primary"></div>
+
     </ion-content>
 </ion-view>

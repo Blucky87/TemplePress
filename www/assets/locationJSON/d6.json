@@ -1,0 +1,25 @@
+{
+    "name" : "St.Augustine Roman Catholic Church",
+    
+    "location" : {
+        "address" : "West side of Fourth Street,between Vine and Race streets",
+        "latitude" : 39.9555307,
+        "longitude" : -75.1466566
+    },
+
+    "background" : {
+        "construction" : {
+            "completed" : "1801",
+            "demolished" : "1844",
+            "architect" : "Nicholas Fagan (later work by William Strickland)"
+        },
+
+        "story" : "In June 1796,  Matthew Carr, an Augustinian friar, purchased a lot on Fourth Street south of Vine and opened a subscription list to build the ﬁrst Augustinian church in Philadelphia. The initial subscribers included President George Washington. Despite his support, construction dragged on for ﬁve years. When St. Augustine's was ﬁnally dedicated in June 1801, it was the largest of the city's four Catholic churches. As immigration brought thousands of European Catholics to the United States, resentment toward the newcomers grew among native-born Protestant Americans. Despite the presence of Mayor John M. Scott, Sheriff Morton McMichael, the police, and the First City Troop Cavalry, members of the 'Nativist' (also known as Native American or Know-Nothing) mob set St. Augustine's on ﬁre. The mob also burned the academy, destroying its priceless library, and smashed gravestones in the churchyard. Within a few hours, nothing was left of St. Augustine's except a blackened shell. On the western interior wall, above where the high altar had stood, the words 'The Lord Seeth' were still visible.",
+        "notes" : "The Augustinians built a new church on the foundations of the original structure in 1847. To represent the phoenix-like resurrection of their church, the salvaged fragments of the Sister Bell were recast and sent to newly founded Villanova College as its college bell."
+    },
+
+    "meta" : {
+        "imgID" : "staugustine.jpg",
+        "GUID" : "d6"
+    }
+}

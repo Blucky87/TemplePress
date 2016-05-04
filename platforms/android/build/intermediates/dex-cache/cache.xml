@@ -2,10 +2,17 @@
 <items version="2" >
 
     <item
+        jar="X:\Google Drive\Git\Repos\TemplePress\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a1d54ee6ce2d23cf710c20a47134b9abe0d25050">
+        <dex dex="X:\Google Drive\Git\Repos\TemplePress\platforms\android\build\intermediates\pre-dexed\release\CordovaLib-unspecified-release_d0d46ba6a526cc3a6bc8e68b8173b9343c75228b.jar" />
+    </item>
+    <item
         jar="X:\Google Drive\Git\Repos\TemplePress\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="12c849759007d3ad70b5d828138a590ac54f737b">
+        sha1="11502adc523e43eca305091d02db035e4fc77b1a">
         <dex dex="X:\Google Drive\Git\Repos\TemplePress\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_4cc34e6c5fbbb122101f6e075eef5d82c50a6bbc.jar" />
     </item>
 
